@@ -1,0 +1,23 @@
+Apr - 15 - 2025
+Tuesday 
+
+Binary Tree :
+    - It is used to solve and traverse in O(log N) .
+    - Tree is a type of graph .
+
+Types of Binary Tree :
+    - BST .
+    - AVL Tree .
+    - 
+
+Traversal :
+    - In-Order 
+    - Pre-Order
+    - Post-Order
+
+Where Binary Tree is Used :
+    - File System .
+    - Databases .
+    - Algorithms / Networking .
+    - Decision Trees (ML) .
+    - 
