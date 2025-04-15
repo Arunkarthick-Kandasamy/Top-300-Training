@@ -5,19 +5,48 @@ Binary Tree :
     - It is used to solve and traverse in O(log N) .
     - Tree is a type of graph .
 
+
+Terminogoly :
+    - Size - total no of nodes .
+    - height --> no of edges from node to deepest leaf node .
+    - leaf nodes - no child nodes .
+    - level of node --> difference between height of root and height of the node .
+    - Anxitor & Decentent .
+
 Types of Binary Tree :
-    - BST .
-    - AVL Tree .
-    - 
+    - Complete Binary Tree . (All level should be full but leaf level may be incomplete but from left ).
+    - Full Binary Tree / Strict Binary Tree . (Each Node should contains either 0 or 2 child nodes . No of internal Nodes = N -1 .No of leaf nodes = no of internal node + 1).
+    - Perfect Binary Tree . (All level are filled . Total nodes = 2^(h + 1) - 1 . No of leaf nodes = 2^h . No of internal Node = 2^h - 1).
+    - Height Balenced Tree . Avg height = o(log(N) EG : AVL ).
+    - Skewed Binary Tree . ( All node should contain only one child node ) .
+    - Ordered Binary Tree . (Every Node should contains some conditions . Eg : BST ).
+    - Segment Tree .
+    
+Implementation : 
+    - Linked Implementation .
+    - Sequential Implementation .
+    
+
+
 
 Traversal :
-    - In-Order 
-    - Pre-Order
-    - Post-Order
+    - In-Order (Left , Root , Right ) - Used during get Sorted order in BST .
+    - Pre-Order ( Root , Left , Right ) 
+    - Post-Order (Left , Right , Root ) - Used during Deleting Binary Tree .
 
 Where Binary Tree is Used :
     - File System .
     - Databases .
     - Algorithms / Networking .
     - Decision Trees (ML) .
-    - 
+
+
+
+Self-Balancing Binary Tree (AVL Tree) :
+    
+
+
+Binary Tree Node :
+    - int data
+    - Node left 
+    - Node right
